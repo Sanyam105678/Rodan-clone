@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+.navbar {
+  /* border: 1px solid red; */
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.navbaroptions {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  float: right;
+  /* border: 1px solid red; */
+}
+.secondbar {
+  margin-top: 0;
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* border: 1px solid red;  */
+}
+.maindisplay {
+  width: auto;
+  height: 700px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.buymore {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  /* border: 1px solid red; */
+}
+.offersimage {
+  width: 55%;
+  height: 100%;
+}
+.offersimage > img {
+  width: 1050px;
+  height: 100%;
+}
+
+.homeproducts {
+  height: 620px;
+  width: auto;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+.homeitems {
+  width: 25%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+  text-align: center;
+}
+.homeitemsimage {
+  width: 100%;
+  height: 40%;
+  border: 0;
+}
+.homeaddtobag {
+  /* color: green; */
+  /* font-weight: lighter; */
+  padding: 10px 120px 10px 120px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+.Skincare {
+  width: auto;
+  height: 500px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.Skincarediv {
+  width: auto;
+  height: 300px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+.smallbox {
+  width: 210px;
+  height: 300px;
+  /* border: 1px solid black; */
+}
+.smallbox > img {
+  width: 100%;
+  height: 70%;
+}
+.divtested {
+  width: auto;
+  height: 500px;
+  /* border: 1px solid black; */
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+}
+.threediv {
+  width: 400px;
+  height: 450px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.threediv > img {
+  width: 400px;
+  height: 50%;
+}
